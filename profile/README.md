@@ -2,7 +2,7 @@
 
 # Carl OpenLab
 
-Developer tools built in the open — npm libraries, desktop apps, and local-first tooling for AI coding agents.
+Developer tools built in the open — native desktop apps, npm libraries, and local-first tooling for AI coding agents.
 
 </div>
 
@@ -20,10 +20,23 @@ Software that runs on your machine, against the agents you already have installe
 
 ## Desktop apps
 
+Native-first software, built in Go with [MyGo](https://mygo.egoist.dev/) or straight Win32 — no Electron.
+
 | Project | What it is |
 | --- | --- |
-| **[Muse](https://github.com/CarlOpenLab/muse)** | A WYSIWYG Markdown editor for the desktop. Type `#` and it becomes a heading; code blocks highlight in real time via Shiki. Built on Milkdown 7 with Go (MyGo) + Vue 3. |
+| **[Gloss](https://github.com/CarlOpenLab/Gloss)** | A Git client built for reviewing changes. A pre-flight AI risk scan anchors findings to file and line, a fork-style topology graph shows the branch shape, and staged diffs become Conventional Commits. Pure Go, GPU-rendered, ~20 MB. macOS · Windows · Linux. |
+| **[Beacon](https://github.com/CarlOpenLab/beacon)** | An ambient terminal hub that signals when it needs you. Real PTY sessions are shared across the native desktop app, browser and phone through a relay; machines dial out, so there is no port forwarding, dynamic DNS or VPN. |
+| **[Muse](https://github.com/CarlOpenLab/muse)** | A WYSIWYG Markdown editor with a tool-using AI writing agent. The window, file tree, outline, editor and agent panel are drawn by Go on the GPU; Markdown renders as you type, Mermaid and math included. |
+| **[ccmail](https://github.com/CarlOpenLab/ccmail)** | A quiet, focused email client for multiple accounts — Gmail, QQ Mail, 163, 126, Outlook, iCloud or any IMAP/SMTP service in one inbox. Native controls in a single Go binary, with credentials encrypted on disk. |
+| **[StickySnap](https://github.com/CarlOpenLab/StickySnap)** | A Snipaste-style screenshot and pin tool for Windows. `F1` captures, `Enter` pins to the desktop, `F3` pins the clipboard, and pins survive reboots. Pure C++/Win32, local-only. |
+
+## Web & mobile apps
+
+| Project | What it is |
+| --- | --- |
 | **[Homeport](https://github.com/CarlOpenLab/homeport)** | A privacy-first personal navigation workstation with multi-user cloud sync. Local-first and usable offline, deployable to Vercel with Upstash Redis. |
+| **[Supei](https://github.com/CarlOpenLab/supei)** | An infinite-canvas AI design tool: chat to generate HTML prototypes with live streaming preview, click any element for targeted feedback, compare variants side by side, and export a single-file interactive preview. |
+| **[Pace](https://github.com/CarlOpenLab/pace)** | A daily-budget expense tracker for Android and iOS. Your ledger stays on your device; AI is optional and off by default. |
 
 ## Libraries
 
